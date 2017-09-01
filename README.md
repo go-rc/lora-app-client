@@ -2,9 +2,13 @@
 
 Simple client to access through gRPC the [@brocaar's](https://github.com/brocaar) [lora-app-server](https://github.com/brocaar/lora-app-server).
 
+Install (the golang way)
+```
+go install github.com/renatoaquino/lora-app-client/cmd/lorainfo
+```
 
 ```$ lorainfo -h
-Usage of ./lorainfo:
+Usage of lorainfo:
   -b string
         address of the lora-app-server backend (default "your-lora-app-server:443")
   -c string
