@@ -92,13 +92,13 @@ func main() {
 
 	if *username == "" {
 		log.Printf("ERROR: missing username\n\n")
-		flag.PrintDefaults()
+		flag.Usage()
 		return
 	}
 
 	if *password == "" {
 		log.Printf("ERROR: missing password\n\n")
-		flag.PrintDefaults()
+		flag.Usage()
 		return
 	}
 
